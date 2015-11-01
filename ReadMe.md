@@ -2,9 +2,9 @@
 This is a setup script for a skeleton project.
 
  * Configuring for ES5, jspm, Typescript and Angular2
- * jspm Version 0.16.4
- * Typescript 1.6.2
- * Angular2 2.0.0-alpha.45
+ * `jspm Version 0.16.4`
+ * `Typescript 1.6.2`
+ * `Angular2 2.0.0-alpha.45`
 
 
 ## Setup
@@ -64,7 +64,7 @@ This is a setup script for a skeleton project.
  12. Run the app in your browser. (See below)
 
 ***
-## Set up a Server
+## Set Up A Server And Run Application
 ***
 ### jspm-server
  * make sure jspm-server is installed globally.
@@ -79,7 +79,17 @@ Run: jspm-server<ENTER>
 
  * (if port 8080 it taken, pick any port that is free)
  * Run: http-server -p 8080<ENTER>
---- 
+
+---
+## Clone This Repo And Run The Demo App
+---
+1. Clone the repo to local directory
+2. cd localDirectory
+3. Run: npm install
+4. Run: jspm install
+5. See the Section Above: `Set Up A Server And Run Application`
+
+---
 ## Resources
 ---
 jspm home: [https://jspm.io](https://jspm.io)
