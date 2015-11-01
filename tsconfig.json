@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noLib": false,
+        "isolatedModules": false,
+        "diagnostics": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "sourceMap": true,
+        "version": true
+    },
+    "filesGlob": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx",
+        "!./npm_modules/**",
+        "!./lib/**",
+        "!./typings/**"
+    ],
+    "files": [
+        "./src/main.ts"
+    ]
+}
