@@ -18,7 +18,7 @@ build
 
 # Place holders
 ############
-!./lib/placeholder.txt
+!lib/placeholder.txt
 
 # Ignore Test reporters
 ###################
