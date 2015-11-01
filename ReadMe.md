@@ -1,18 +1,21 @@
 # Getting Started With JSPM and System.js
  * Configuring for ES5, jspm, Typescript and Angular2
- * Using jspm Version 0.16.4
-
+ * jspm Version 0.16.4
+ * Typescript 1.6.2
+ * Angular2 2.0.0-alpha.45
 
 
 ## Setup
- 1. mkdir fantasticProject && cd fantasticProject
+ 1. mkdir fantasticAppDir && cd fantasticAppDir
 
  2. Create package.json
     * npm init
 
  3. Install jspm globally: npm install -g jspm
 
- 4. If you plan to install your jspm packages in a directory other than jspm_packages, create your alternate directory now. (Example directory: 'lib').
+ 4. If you plan to install your jspm packages in a directory other than
+    'jspm_packages', create your alternate directory now.
+    (Example directory: 'lib').
 
  5. Install jspm locally: npm install jspm --save-dev
     * This allows you to control and lock the version of
@@ -21,11 +24,12 @@
 
  6. Run: jspm init  - Take the defaults except as follows:
     * Source: https://github.com/jspm/jspm-cli/blob/master/docs/getting-started.md
+
     * Take 'Typescript' transpiler option
+
     * If alternate package installation directory is desired, input new
       directory as per # 5 above.
       (Enter jspm packages folder (.\jspm_packages): RESPOND-> lib<ENTER>)
-
 
     * NOTE: If something goes wrong you can always re-run: jspm init -p
     * If you receive an error related to inabililty to access a certificate at
@@ -51,15 +55,17 @@
         *  "packages": {
            "app": {
              "main": "main",
-             "defaultExtension": "ts" //or "js" for javascript
+             "defaultExtension": "ts"
            }  
 
-## For ES6 and Angular 2
-Create the tsconfig.json file.
+ 9. Create the tsconfig.json file.
 
+ 10. Compile 'main.ts' typescript file. You should receive zero errors.
 
+ 11. Run the app in your browser. (See below)
+***
 ## Set up a Server
-******************
+***
 ### jspm-server
  * make sure jspm-server is installed globally.
 jspm install -g jspm-server
@@ -68,7 +74,8 @@ jspm install -g jspm-server
 Run: jspm-server<ENTER>
 
 ### http-server
- * To display index.html in the Browser->
+ To display index.html in the Browser->
  * npm install -g http-server
+
  * (if port 8080 it taken, pick any port that is free)
  * Run: http-server -p 8080<ENTER>
