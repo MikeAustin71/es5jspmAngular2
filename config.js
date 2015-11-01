@@ -9,6 +9,7 @@ System.config({
     "resolveAmbientRefs": true,
     "module": "commonjs"
   },
+  
   paths: {
     "npm:*": "lib/npm/*",
     "github:*": "lib/github/*",

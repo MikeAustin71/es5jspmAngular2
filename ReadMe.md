@@ -1,4 +1,6 @@
-# Getting Started With JSPM and System.js
+# Getting Started With JSPM, Typescript and Angular 2
+This is a setup script for a skeleton project.
+
  * Configuring for ES5, jspm, Typescript and Angular2
  * jspm Version 0.16.4
  * Typescript 1.6.2
@@ -47,22 +49,20 @@
     * (optional) jspm install jquery
 
  8. Modify config.js (ES5 Version)
-        *   "typescriptOptions":{
-            "emitDecoratorMetadata": true,
-            "resolveAmbientRefs": true,
-            "module": "System"
-            },
-        *  "packages": {
-           "app": {
-             "main": "main",
-             "defaultExtension": "ts"
-           }  
+        * "typescriptOptions" section
+            of the config.js file.
+        * "packages" section of the config.js file.    
+        * "paths" section: note the addtion of
+            "app" component.
 
  9. Create the tsconfig.json file.
 
- 10. Compile 'main.ts' typescript file. You should receive zero errors.
+ 10. Run: tsd init -> setup typings directory
 
- 11. Run the app in your browser. (See below)
+ 11. Compile 'main.ts' typescript file. You should receive zero errors.
+
+ 12. Run the app in your browser. (See below)
+
 ***
 ## Set up a Server
 ***
