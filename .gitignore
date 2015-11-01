@@ -16,6 +16,10 @@ lib
 build
 #.tmp
 
+# Place holders
+############
+!./lib/placeholder.txt
+
 # Ignore Test reporters
 ###################
 **/test/coverage
