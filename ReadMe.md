@@ -79,3 +79,11 @@ Run: jspm-server<ENTER>
 
  * (if port 8080 it taken, pick any port that is free)
  * Run: http-server -p 8080<ENTER>
+--- 
+## Resources
+---
+jspm home: [https://jspm.io](https://jspm.io)
+
+jspm and typescript [http://stackoverflow.com/questions/28339100/using-jspm-with-typescript](http://stackoverflow.com/questions/28339100/using-jspm-with-typescript)
+
+typescript angular and jspm samples[https://github.com/Microsoft/TypeScriptSamples](https://github.com/Microsoft/TypeScriptSamples)
