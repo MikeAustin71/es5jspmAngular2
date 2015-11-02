@@ -28,6 +28,7 @@
       "@reactivex/rxjs": "npm:@reactivex/rxjs@^5.0.0-alpha.7",
       "angular2": "npm:angular2@^2.0.0-alpha.45",
       "core-js": "npm:core-js@^1.2.3",
+      "es6-module-loader": "npm:es6-module-loader@^0.17.8",
       "es6-shim": "github:es-shims/es6-shim@^0.33.9",
       "jquery": "github:components/jquery@^2.1.4",
       "reflect-metadata": "npm:reflect-metadata@^0.1.2",

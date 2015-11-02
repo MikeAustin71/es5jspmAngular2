@@ -6,6 +6,7 @@ This is a setup script for a skeleton project.
  * `Typescript 1.6.2`
  * `Angular2 2.0.0-alpha.45`
 
+### Works In Chrome, Firefox and IE
 
 ## Setup
  1. mkdir fantasticAppDir && cd fantasticAppDir
@@ -41,11 +42,12 @@ This is a setup script for a skeleton project.
 
  7. install dependencies (Note: You may be asked for GitHub Credentials):
     * jspm dl-loader --edge
+    * jspm install npm:es6-module-loader
     * jspm install npm:tsd
     * jspm install angular2 reflect-metadata zone.js es6-shim
     * jspm install traceur
     * jspm install npm:@reactivex/rxjs
-    * (optional) jspm install core-js
+    * jspm install core-js
     * (optional) jspm install jquery
 
  8. Modify config.js (ES5 Version)
@@ -61,7 +63,9 @@ This is a setup script for a skeleton project.
 
  11. Compile 'main.ts' typescript file. You should receive zero errors.
 
- 12. Run the app in your browser. (See below)
+ 12. Run the app in your browser. (See below) When run
+        in the browser, you should only see two warnings in the Chrome Console related to 'Zone'. No errors.
+
 
 ***
 ## Set Up A Server And Run Application
