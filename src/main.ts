@@ -1,4 +1,4 @@
-
+"use strict";
 //import deps
 import 'zone.js';
 import 'reflect-metadata';
@@ -11,6 +11,7 @@ import {
   View,
   bootstrap
 } from 'angular2/angular2';
+
 
 @Component({
   selector: 'test-app'
