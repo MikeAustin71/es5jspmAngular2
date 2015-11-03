@@ -18,9 +18,9 @@
     "filesGlob": [
         "./src/**/*.ts",
         "./src/**/*.tsx",
-        "!./npm_modules/**",
-        "!./lib/**",
-        "!./typings/**"
+        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/**/*/*.d.ts",
+        "./typings/**",
+        "!./npm_modules/**"
     ],
     "files": [
         "./src/main.ts"

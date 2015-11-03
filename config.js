@@ -26,7 +26,6 @@ System.config({
     "@reactivex/rxjs": "npm:@reactivex/rxjs@5.0.0-alpha.7",
     "angular2": "npm:angular2@2.0.0-alpha.45",
     "core-js": "npm:core-js@1.2.3",
-    "es6-module-loader": "npm:es6-module-loader@0.17.8",
     "es6-shim": "github:es-shims/es6-shim@0.33.9",
     "jquery": "github:components/jquery@2.1.4",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
@@ -420,13 +419,6 @@ System.config({
       "net": "github:jspm/nodelibs-net@0.1.2",
       "once": "npm:once@1.3.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:es6-module-loader@0.17.8": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0",
-      "util": "github:jspm/nodelibs-util@0.1.0",
-      "when": "npm:when@3.7.4"
     },
     "npm:es6-promise@3.0.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
@@ -1123,9 +1115,6 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
-    },
-    "npm:when@3.7.4": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:xdg-basedir@1.0.1": {
       "path": "github:jspm/nodelibs-path@0.1.0",
