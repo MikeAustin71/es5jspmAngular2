@@ -9,6 +9,8 @@ as follows:
 
 ### Works In Chrome, Firefox, Edge and IE
 
+### Configured for Editors: VSCode, Sublime, WebStorm and Atom
+
 ## Setup
 1. mkdir fantasticAppDir && cd fantasticAppDir
 
