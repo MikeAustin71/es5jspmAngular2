@@ -1,15 +1,16 @@
 {
-  "name": "es5jspmAngular2",
+  "name": "es5jspmangular2",
   "version": "1.0.0",
-  "description": "Setup for ES5, Angular2 and jspm",
+  "description": "Setup JSPM, Angular2, Typescript targeting ES5",
   "main": "main.js",
   "scripts": {
     "test": ""
   },
   "keywords": [
-    "ES5",
+    "es5",
     "jspm",
-    "Angular2"
+    "angular2",
+    "typescript"
   ],
   "author": "Mike Rapp",
   "license": "MIT",
@@ -17,22 +18,17 @@
     "type": "git",
     "url": "file:///G:/Git/jspm/es5jspmAngular2"
   },
-  "devDependencies": {
-    "jspm": "^0.16.14"
-  },
   "jspm": {
     "directories": {
       "packages": "lib"
     },
     "dependencies": {
-      "@reactivex/rxjs": "npm:@reactivex/rxjs@^5.0.0-alpha.7",
       "angular2": "npm:angular2@^2.0.0-alpha.45",
-      "core-js": "npm:core-js@^1.2.3",
-      "es6-module-loader": "npm:es6-module-loader@^0.17.8",
-      "es6-shim": "github:es-shims/es6-shim@^0.33.9",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "es6-shim": "github:es-shims/es6-shim@^0.33.10",
       "jquery": "github:components/jquery@^2.1.4",
+      "lodash": "npm:lodash@^3.10.1",
       "reflect-metadata": "npm:reflect-metadata@^0.1.2",
-      "traceur": "github:jmcriffey/bower-traceur@^0.0.92",
       "tsd": "npm:tsd@^0.6.5",
       "zone.js": "npm:zone.js@^0.5.8"
     },

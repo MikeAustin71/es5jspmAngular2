@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Commands>
+	<CommandFileHeader>
+		<DefaultLogFileRetentionInDays>0</DefaultLogFileRetentionInDays>
+		<DefaultCommandExeDirectory></DefaultCommandExeDirectory>
+		<DefaultCommandOutputLogFilePathName>./cmdrx/install.log</DefaultCommandOutputLogFilePathName>
+	</CommandFileHeader>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm dl-loader</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>dl-loader</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>--edge</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm install typescript</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>install</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>typescript</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>tsc initialize</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>tsc</ExecutableTarget>
+		<CommandToExecute></CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>--init</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm install tsd</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>install</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>npm:tsd</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>tsd initialize</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>tsd</ExecutableTarget>
+		<CommandToExecute></CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>init</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm install Angular2</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>install</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>angular2 reflect-metadata zone.js es6-shim</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm install jquery</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>install</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>jquery</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm install lodash</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>install</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>lodash</CommandArguments>
+	</ExectuteCommand>
+	<ExectuteCommand>
+		<CommandDisplayName>jspm install bootstrap</CommandDisplayName>
+		<ConsoleCommandType>Console</ConsoleCommandType>
+		<KillJobsRunOnExitCodeGreaterThan></KillJobsRunOnExitCodeGreaterThan>
+		<KillJobsRunOnExitCodeLessThan></KillJobsRunOnExitCodeLessThan>
+		<CommandOutputLogFilePathBaseName></CommandOutputLogFilePathBaseName>
+		<!--Time out expressed in decimal fractions of a minute. Example: 10.0 minutes -->
+		<CommandTimeOutInMinutes>15.0</CommandTimeOutInMinutes>
+		<DefaultConsoleCommandExecutor>cmd.exe</DefaultConsoleCommandExecutor>
+		<ConsoleCommandExeArguments>/c</ConsoleCommandExeArguments>
+		<ExecuteInDir></ExecuteInDir>
+		<ExecutableTarget>jspm</ExecutableTarget>
+		<CommandToExecute>install</CommandToExecute>
+		<CommandModifier></CommandModifier>
+		<CommandArguments>bootstrap</CommandArguments>
+	</ExectuteCommand>
+</Commands>

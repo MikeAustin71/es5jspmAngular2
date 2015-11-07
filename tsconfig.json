@@ -3,7 +3,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "target": "es5",
-        "module": "commonjs",
+        "module": "system",
         "declaration": false,
         "noLib": false,
         "isolatedModules": false,
@@ -18,18 +18,17 @@
     "filesGlob": [
         "./src/**/*.ts",
         "./src/**/*.tsx",
-        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/**/*/*.d.ts",
-        "./typings/**",
-        "!./npm_modules/**"
+        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/angular2.d.ts",
+        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/es6-shim/es6-shim.d.ts",
+        "!./node_modules/**"
     ],
     "files": [
         "./src/main.ts",
         "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/angular2.d.ts",
-        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/http.d.ts",
-        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/router.d.ts",
-        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/testing.d.ts",
-        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/es6-shim/es6-shim.d.ts",
-        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/jasmine/jasmine.d.ts",
-        "./typings/tsd.d.ts"
+        "./lib/npm/angular2@2.0.0-alpha.45/bundles/typings/es6-shim/es6-shim.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "lib"
     ]
 }

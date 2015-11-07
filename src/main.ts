@@ -1,4 +1,4 @@
-"use strict";
+
 //import deps
 import 'zone.js';
 import 'reflect-metadata';
@@ -24,8 +24,8 @@ class TestApp {
   constructor(){
     this.name = 'Angular2';
     setTimeout(() => {
-      this.name = 'Angular2!!!'
-    },1500);
+      this.name = 'Angular2 - Rock and Roll!!'
+  },1500);
   }
 }
 

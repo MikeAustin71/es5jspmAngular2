@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Angular 2 ES5 Demo App</title>
+    <title>JSPM Typescript Angular2 ES5 Setup</title>
     <!-- systemJS loader and config -->
     <script src="lib\system.js"></script>
     <script src="config.js"></script>
+
 </head>
 <body>
-    <h1>ES5 Typescript Angular2 jspm Demo App</h1>
+    <h1>JSPM Typescript Angular2 Targeting ES5</h1>
     <br />
     <br />
     <br />
@@ -16,9 +17,8 @@
         Loading...
     </test-app>
 
-    <!-- import and run our app -->
-    <script>
-      System.import('./src/main');
-    </script>
+    <!-- import app -->
+    <script async>System.import("app");</script>
+
 </body>
 </html>
